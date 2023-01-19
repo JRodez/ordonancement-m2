@@ -1,0 +1,125 @@
+% Préambule du document
+\documentclass[a4paper,12pt]{extreport}
+
+\title{Rapport de projet IdO}
+\author{Brice WEISS, Jérémie RODEZ, Thiziri HALLI}
+
+
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage{csquotes}
+\usepackage{lipsum}
+\usepackage{indentfirst}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{setspace }
+\usepackage{float}
+\usepackage{listings}
+
+\lstset{frame=tb,
+  language=python,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\setstretch{1.2}
+% \setlist[itemize]{parsep=1em}
+\setlist[itemize]{label=\ding{228},parsep=0.2em}
+
+\renewcommand\thesection{\Roman{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\renewcommand\thesubsubsection{\thesubsection.\alph{subsubsection}}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\pagenumbering{arabic}
+% \setcounter{section}{-2}
+\setlength{\parskip}{2em} % espace entre les paragraphes à 2em
+% espace entre les lignes à 1.5em:
+\setlength{\baselineskip}{0.2em}
+
+% Bibliografi
+%\usepackage[backend=biber, style=apa]{biblatex}
+%\addbibresource{bibliografi.bib}
+\usepackage[hidelinks]{hyperref}
+\usepackage[nottoc]{tocbibind}
+\setlength{\emergencystretch}{2em} 
+
+% Généralités
+\usepackage[margin=25mm]{geometry}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{appendix}
+\usepackage{afterpage}
+\usepackage{pifont}
+
+\newcommand\myemptypage{
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage
+}
+
+\setlength{\parindent}{2em} % indentation des paragraphes à 2em
+% \setlength{\parskip}{3em} % espace entre les paragraphes à 2em
+
+\usepackage{pgfplots}
+\pgfplotsset{width=7cm, compat=newest}
+\usetikzlibrary{patterns}
+\usepackage{bchart}
+\renewcommand{\bcfontstyle}{}
+\usepackage{pgf-pie}
+
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codeorange}{RGB}{236,150,15}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.68,0,0.12}
+\definecolor{backcolour}{rgb}{0.96,0.96,0.96}
+
+\usepackage{listings}
+\addto\captionsnorsk{\renewcommand{\lstlistlistingname}{Koder}}
+\addto\captionsnorsk{\renewcommand{\lstlistingname}{Kode}}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegray},
+    keywordstyle=\color{codepurple},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codegreen},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    % pdftitle={Overleaf Example},
+    % pdfpagemode=FullScreen,
+}
+
+\lstset{style=mystyle}

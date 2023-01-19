@@ -1,0 +1,13 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {I}Mode 1}{2}{section.0.1}%
+\contentsline {subsection}{\numberline {I.1}Rate Monotonic}{2}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {I.2}Earliest Deadline First}{3}{subsection.0.1.2}%
+\contentsline {section}{\numberline {II}Mode 2}{5}{section.0.2}%
+\contentsline {subsection}{\numberline {II.1}Serveur à Scrutation}{5}{subsection.0.2.1}%
+\contentsline {subsection}{\numberline {II.2}Serveur Sporadique}{6}{subsection.0.2.2}%
+\contentsline {section}{\numberline {III}Mode 3}{7}{section.0.3}%
+\contentsline {subsection}{\numberline {III.1}Rate Monotonic avec précédence}{7}{subsection.0.3.1}%
+\contentsline {subsection}{\numberline {III.2}Earliest Deadline First avec précédence}{8}{subsection.0.3.2}%
+\contentsline {section}{\numberline {IV}Mode 4}{9}{section.0.4}%
+\contentsline {subsection}{\numberline {IV.1}Priority Inheritance Protocol}{9}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {IV.2}Priority Ceiling Protocol}{10}{subsection.0.4.2}%

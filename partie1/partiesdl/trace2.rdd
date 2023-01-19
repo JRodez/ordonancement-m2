@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Diagram SYSTEM "rtdsDiagram.dtd">
+
+<MscDiagram message_params_visibility="full">
+<LifelineOrdering identifiers="LIFELINEID_1 LIFELINEID_2 LIFELINEID_3 LIFELINEID_4 LIFELINEID_5 LIFELINEID_6 LIFELINEID_7 LIFELINEID_8 LIFELINEID_9"/>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_1" event_type="PROCESS_START" color="-" text="Th_Dialogue
+(1)" text_size="0 -" background="-"/>
+<MscEvent lifeline_ids="LIFELINEID_5" event_type="PROCESS_START" color="-" text="Th_Robot_Alim
+(2)" text_size="0 -" background="-"/>
+<MscEvent lifeline_ids="LIFELINEID_6" event_type="PROCESS_START" color="-" text="Th_Robot_Ret
+(3)" text_size="0 -" background="-"/>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="PROCESS_START" color="-" text="gestionConvoyeur
+(4)" text_size="0 -" background="-"/>
+<MscEvent lifeline_ids="LIFELINEID_8" event_type="PROCESS_START" color="-" text="RTDS_Env
+(-1)" text_size="0 -" background="-"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_2 LIFELINEID_1" event_type="PROCESS_CREATION" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM54" identifier="_LINK_36"/>
+<MscEvent lifeline_ids="LIFELINEID_2" event_type="PROCESS_START" color="-" text="Th_Machine
+(5)" text_size="0 -" background="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM54"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3 LIFELINEID_1" event_type="PROCESS_CREATION" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM54" identifier="_LINK_37"/>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="PROCESS_START" color="-" text="Th_Machine
+(6)" text_size="0 -" background="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM54"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_4 LIFELINEID_1" event_type="PROCESS_CREATION" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM54" identifier="_LINK_38"/>
+<MscEvent lifeline_ids="LIFELINEID_4" event_type="PROCESS_START" color="-" text="Th_Machine
+(7)" text_size="0 -" background="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM54"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_1" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM57" identifier="COND1" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND1" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM57"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_5" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM2" identifier="COND2" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND2" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM2"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_6" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM2" identifier="COND3" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND3" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM2"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM3" identifier="COND4" background="-" text="att"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="att" identifier="COND4" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM3"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_2" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM59" identifier="COND5" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND5" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM59"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM59" identifier="COND6" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND6" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM59"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_4" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM59" identifier="COND7" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND7" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM59"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_8" event_type="MESSAGE_SEND" color="-" text="piece(|{param1|=0|})" identifier="MSG1"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_1" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM45" identifier="MSG1" text="piece(|{param1|=0|})"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9 LIFELINEID_1" event_type="PROCESS_CREATION" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM46" identifier="_LINK_39"/>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="PROCESS_START" color="-" text="Th_Piece
+(8)" text_size="0 -" background="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM46"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_1" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM47" identifier="MSG2" text="pieceArv(|{param1|=0|})"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_1" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM59" identifier="COND8" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND8" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_dialogue.rdd*SYM59"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM2" identifier="COND9" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND9" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM2"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM8" identifier="MSG2" text="pieceArv(|{param1|=0|})"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM28" identifier="MSG3" text="usinageReq"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM13" identifier="COND10" background="-" text="attConfUsinage"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attConfUsinage" identifier="COND10" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM13"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM4" identifier="MSG3" text="usinageReq"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM75" identifier="MSG4" text="usinageConf"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM64" identifier="COND11" background="-" text="attDepotAlim"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attDepotAlim" identifier="COND11" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM64"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM4" identifier="MSG4" text="usinageConf"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM5" identifier="MSG5" text="depotReq"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM12" identifier="COND12" background="-" text="attConfDep"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attConfDep" identifier="COND12" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM12"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_5" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM5" identifier="MSG5" text="depotReq"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_5" event_type="TIMER_START" color="-" text="attenteDepot(30)" type="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM61"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_5" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM63" identifier="MSG6" text="convLibre"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_5" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM64" identifier="COND13" background="-" text="attConvoyeur"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attConvoyeur" identifier="COND13" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM64"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM56" identifier="MSG6" text="convLibre"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM131" identifier="MSG7" text="depose"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM132" identifier="COND14" background="-" text="ConvOccupe"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="ConvOccupe" identifier="COND14" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM132"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_5" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM20" identifier="MSG7" text="depose"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_5" event_type="TIMER_CANCEL" color="-" text="attenteDepot" type="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM62"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_5" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM41" identifier="MSG8" text="depotConf"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_5" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM42" identifier="COND15" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND15" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_alim.rdd*SYM42"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM35" identifier="MSG8" text="depotConf"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM36" identifier="MSG9" text="depotFini"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="TIMER_START" color="-" text="machineEnPanne(300)" type="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM46"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM37" identifier="COND16" background="-" text="attFinUsinage"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attFinUsinage" identifier="COND16" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM37"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM113" identifier="MSG9" text="depotFini"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="TIMER_START" color="-" text="defaillRetrait(20)" type="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM115"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM135" identifier="MSG10" text="libererConv"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM136" identifier="COND17" background="-" text="attConv"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attConv" identifier="COND17" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM136"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM61" identifier="MSG10" text="libererConv"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM138" identifier="MSG11" text="Libre"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM139" identifier="COND18" background="-" text="att"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="att" identifier="COND18" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM139"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM66" identifier="MSG11" text="Libre"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="TIMER_CANCEL" color="-" text="defaillRetrait" type="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM134"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM109" identifier="MSG12" text="finUsinage"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM110" identifier="COND19" background="-" text="attDepot"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attDepot" identifier="COND19" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM110"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM17" identifier="MSG12" text="finUsinage"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="TIMER_CANCEL" color="-" text="machineEnPanne" type="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM47"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM18" identifier="MSG13" text="remiseReq"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM19" identifier="COND20" background="-" text="attRemiseConf"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attRemiseConf" identifier="COND20" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM19"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM21" identifier="MSG13" text="remiseReq"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM40" identifier="MSG14" text="convLibreM"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM41" identifier="COND21" background="-" text="attReponseConv"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attReponseConv" identifier="COND21" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM41"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM152" identifier="MSG14" text="convLibreM"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM153" identifier="MSG15" text="depose"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM154" identifier="COND22" background="-" text="ConvOccupe"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="ConvOccupe" identifier="COND22" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM154"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM43" identifier="MSG15" text="depose"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM45" identifier="MSG16" text="remiseConf"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_3" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM46" identifier="COND23" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND23" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_machine.rdd*SYM46"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM21" identifier="MSG16" text="remiseConf"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM22" identifier="MSG17" text="retraitReq"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM23" identifier="COND24" background="-" text="attRetConf"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attRetConf" identifier="COND24" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM23"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_6" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM5" identifier="MSG17" text="retraitReq"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_6" event_type="TIMER_START" color="-" text="defaillRobotRet(20)" type="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM33"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_6" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM34" identifier="MSG18" text="retP"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_6" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM35" identifier="COND25" background="-" text="attConv"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="attConv" identifier="COND25" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM35"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM150" identifier="MSG18" text="retP"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM148" identifier="MSG19" text="Libre"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_7" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM149" identifier="COND26" background="-" text="att"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="att" identifier="COND26" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\gestionconvoyeur.rdd*SYM149"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_6" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM12" identifier="MSG19" text="Libre"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_6" event_type="TIMER_CANCEL" color="-" text="defaillRobotRet" type="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM38"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_6" event_type="MESSAGE_SEND" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM14" identifier="MSG20" text="retraitConf"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_6" event_type="CONDITION_START" color="-" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM17" identifier="COND27" background="-" text="Idle"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="CONDITION_END" color="-" text="Idle" identifier="COND27" model_id="PragmaDevStudio:symbol*c:\users\green\desktop\ordonancement-m2\partie1\cellprod\th_robot_ret.rdd*SYM17"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="MESSAGE_RECEIVE" color="-" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM27" identifier="MSG20" text="retraitConf"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent lifeline_ids="LIFELINEID_9" event_type="PROCESS_END" color="#000000" model_id="PragmaDevStudio:symbol*g:\desktop\ordonancement-m2\partie1\cellprod\th_piece.rdd*SYM33"/>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text="0"/>
+</MscEventRow>
+<MscEventRow>
+<MscEvent event_type="ABSOLUTE_TIME" color="#000000" text=""/>
+</MscEventRow>
+</MscDiagram>

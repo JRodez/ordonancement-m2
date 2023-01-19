@@ -1,0 +1,32 @@
+%% PRÉAMBULE %%
+\input{preamble.tex}
+
+\begin{document}
+
+%% PAGE DE GARDE %%
+\setstretch{1}
+\include{titre}
+
+%% TABLE DES MATIERES %%
+\setstretch{1}
+\setlength{\parskip}{.5em}
+\cleardoublepage
+\tableofcontents
+\newpage
+
+\setlength{\parskip}{2em} % espace entre les paragraphes à 2em
+\setstretch{1.35}
+
+
+
+%% CORPS DU RAPPORT %%
+
+\include{sections/mode1.tex}
+
+\include{sections/mode2.tex}
+
+\include{sections/mode3.tex}
+
+\include{sections/mode4.tex}
+
+\end{document}
